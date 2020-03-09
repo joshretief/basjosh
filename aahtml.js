@@ -1,4 +1,4 @@
-var injecthtml ='<div id="crosssell" class="crosssell">
+var injecthtml = '<div id="crosssell" class="crosssell">
     <h1 class="heading-2">Customers Also Bought</h1>
     <div class="div-block-9">
       <div data-animation="slide" data-duration="800" data-infinite="1" class="slider desktoponly w-slider">
