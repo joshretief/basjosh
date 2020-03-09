@@ -173,4 +173,4 @@ var injecthtml ='<div id="crosssell" class="crosssell">
     </div>
   </div>'
 
-$(injecthtml).insertBefore(“body > div.l-outer-container > div > footer”);
+$(injecthtml).insertBefore(body > div.l-outer-container > div > footer);
