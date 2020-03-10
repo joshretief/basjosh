@@ -340,3 +340,33 @@
     width: 100%;
   }
 }
+.ruk-rating-snippet-count {
+font-size: 12px !important;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+color: #000 !important;
+
+z-index: 99999;
+}
+
+.w-slider-dot {background: #F0F0F0;}
+.w-slider-dot.w-active {background: #D5D5D5;}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.ruk-rating-snippet-count {
+float: left;
+} 
+}
+
+@media screen and (max-width: 479px){
+.ruk-rating-snippet-count {
+font-size: 9px !important;
+
+}
+}
+
+@media screen and (max-width: 320px){
+.ruk-rating-snippet-count {
+float: left;
+}
+}
