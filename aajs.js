@@ -1,4 +1,11 @@
-(function(modules) { // webpackBootstrap
+/*!
+ * Webflow: Front-end site library
+ * @license MIT
+ * Inline scripts may access the api using an async handler:
+ *   var Webflow = Webflow || [];
+ *   Webflow.push(readyFunction);
+ */
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -2020,7 +2027,7 @@ Webflow.define('scroll', module.exports = function ($) {
       return;
     }
 
-    var el = $('#' + hash);
+    var el = $('#' + hash).filter(':visible');
 
     if (!el.length) {
       return;
