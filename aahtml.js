@@ -13,4 +13,4 @@ text: "Reviews"
 });
 </script> ';
 
-$(myvariable).insertBefore("body > div.l-outer-container > div > footer");
+$(myvariable).insertBefore("#crosssell");
