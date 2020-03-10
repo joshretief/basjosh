@@ -637,6 +637,4 @@ Webflow.define('slider', module.exports = function ($, _) {
   return api;
 });
 
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
+
